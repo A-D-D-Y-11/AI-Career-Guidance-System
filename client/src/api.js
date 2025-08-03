@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  // The baseURL must include '/api' at the end
+  baseURL: 'https://ai-career-guidance-backend.onrender.com/api',
 });
 
 // This "interceptor" runs after every API response
