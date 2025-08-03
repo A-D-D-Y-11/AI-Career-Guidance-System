@@ -1,7 +1,8 @@
-import axios from 'axios';
+ import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  // This is the correct, live URL for your backend
+  baseURL: 'https://ai-career-guidance-backend.onrender.com/api',
 });
 
 // This "interceptor" runs after every API response
